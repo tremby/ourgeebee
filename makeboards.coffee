@@ -102,7 +102,7 @@ boards = [
 	}
 	{
 		source: 'boards/sushi.xcf'
-		clue: "More yum yum"
+		clue: "Our favourite thing to eat"
 		win: "What do you think is in it?"
 	}
 ]
