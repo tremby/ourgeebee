@@ -31,6 +31,11 @@ boards = [
 		win: "YOU ARE A STAR PLAYER"
 	}
 	{
+		source: 'boards/sunset.xcf'
+		clue: "A nice time of day"
+		win: "That's meant to be a boat"
+	}
+	{
 		source: 'boards/birdie.xcf'
 		clue: "A thing you are welcome to enjoy for your birthday"
 		win: "If you like"
