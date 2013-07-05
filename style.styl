@@ -1,0 +1,340 @@
+border-box()
+	-moz-box-sizing border-box
+	-webkit-box-sizing border-box
+	-o-box-sizing border-box
+	-ms-box-sizing border-box
+	box-sizing border-box
+
+rounded($len = 0.5em)
+	border-radius $len
+
+shadowed()
+	box-shadow 2px 2px 5px rgba(black, 0.5)
+
+transition($args)
+	-moz-transition $args
+	-webkit-transition $args
+	-o-transition $args
+	-ms-transition $args
+	transition $args
+
+html
+	height 100%
+body
+	min-height 100%
+	background-color #222
+	color #888
+	font-family sans-serif
+	font-size 18px
+	margin 0
+	padding 0
+	position relative
+
+	&.mode-red.mode-green.mode-blue
+		cursor url(cursors/unknown-white.png) 2 1, auto
+		&.mode-off
+			cursor url(cursors/not-white.png) 2 1, auto
+		&.mode-on
+			cursor url(cursors/white.png) 2 1, auto
+	for $colour in 'red' 'green' 'blue'
+		&.mode-{$colour}
+			cursor unquote('url(cursors/unknown-' + $colour + '.png)') 2 1, auto
+			&.mode-off
+				cursor unquote('url(cursors/not-' + $colour + '.png)') 2 1, auto
+			&.mode-on
+				cursor unquote('url(cursors/' + $colour + '.png)') 2 1, auto
+
+#board-area
+	position relative
+	#tama
+		position absolute
+		right 0
+		margin 0
+		padding 0.5em
+		list-style-type none
+		li
+			margin 0
+			padding 0
+			font-weight bold
+			opacity 0.2
+			&.red
+				color #f00
+			&.green
+				color #0f0
+			&.blue
+				color #00f
+			&.tama
+				opacity 1
+
+$border-color = #555
+table.board
+	margin 0.5em auto
+	border-collapse collapse
+	th
+		border 1px solid $border-color
+		border-style solid none
+		.groups
+			font-size 50%
+			line-height 1.2
+			text-shadow 1px 1px 0 rgba(0, 0, 0, 0.8)
+			.mode-single &
+				opacity 0.3
+			.mode-single.mode-red &.red
+				opacity 1
+			.mode-single.mode-green &.green
+				opacity 1
+			.mode-single.mode-blue &.blue
+				opacity 1
+			&.red
+				color #f55
+				.complete
+					color #a00
+			&.green
+				color #5f5
+				.complete
+					color #0a0
+			&.blue
+				color #55f
+				.complete
+					color #00a
+		.group
+			display inline
+			padding 1px
+			&:after
+				content ','
+			margin-right 0.3em
+			&:last-child
+				margin-right 0
+				&:after
+					content ''
+			&.complete
+				background-color black
+	tr:first-of-type
+		th
+			white-space nowrap
+			border-style none solid
+			&:first-of-type
+				border-style none
+			.groups
+				line-height 1
+				text-align center
+				margin-right 0.2em
+				&:last-child
+					margin-right 0
+				vertical-align middle
+				display inline-block
+				.mode-single &
+					opacity 0.3
+				.mode-single.mode-red &.red
+					opacity 1
+				.mode-single.mode-green &.green
+					opacity 1
+				.mode-single.mode-blue &.blue
+					opacity 1
+				.group
+					width 100%
+					margin-left 0
+					display block
+					padding-top 2px
+					padding-bottom 2px
+					&:after
+						content ''
+	tr:nth-child(5n+1) td
+		border-bottom-width 3px
+	tr:last-child
+		td
+		th
+			border-bottom-style none
+	th:last-child
+		border-right-style none !important
+	tr:first-child th:first-child
+		border-style none !important
+	td
+		border 1px solid $border-color
+		&:nth-child(5n+1)
+			border-right-width 3px
+		&:last-child
+			border-right-style none
+		width 2em
+		height 2em
+		vertical-align middle
+		text-align center
+		div
+			width 50%
+			height 50%
+			display inline-block
+			vertical-align middle
+		&.selected div
+			.mode-off.mode-red.mode-green.mode-blue &
+				background-color #000 !important
+			.mode-red.mode-green.mode-blue &
+				background-color #777 !important
+			.mode-on.mode-red.mode-green.mode-blue &
+				background-color #fff !important
+		for redclass in '.not-red' '' '.red'
+			if redclass == '.not-red'
+				$r = 0
+			else if redclass == ''
+				$r = 7
+			else if redclass == '.red'
+				$r = f
+			for greenclass in '.not-green' '' '.green'
+				if greenclass == '.not-green'
+					$g = 0
+				else if greenclass == ''
+					$g = 7
+				else if greenclass == '.green'
+					$g = f
+				for blueclass in '.not-blue' '' '.blue'
+					if blueclass == '.not-blue'
+						$b = 0
+					else if blueclass == ''
+						$b = 7
+					else if blueclass == '.blue'
+						$b = f
+					&{redclass}{greenclass}{blueclass}
+						&, .mode-single.mode-red.mode-green.mode-blue &
+							background-color unquote('#' + $r + $g + $b)
+						#board &
+							.mode-single.mode-red &
+								if $r == 7
+									background-color #777
+								else
+									background-color unquote('#' + $r + '0' + '0')
+							.mode-single.mode-green &
+								if $g == 7
+									background-color #777
+								else
+									background-color unquote('#' + '0' + $g + '0')
+							.mode-single.mode-blue &
+								if $b == 7
+									background-color #777
+								else
+									background-color unquote('#' + '0' + '0' + $b)
+						&.selected div
+							.mode-off.mode-red &
+								background-color unquote('#' + '0' + $g + $b)
+							.mode-red &
+								background-color unquote('#' + '7' + $g + $b)
+							.mode-on.mode-red &
+								background-color unquote('#' + 'f' + $g + $b)
+							.mode-off.mode-green &
+								background-color unquote('#' + $r + '0' + $b)
+							.mode-green &
+								background-color unquote('#' + $r + '7' + $b)
+							.mode-on.mode-green &
+								background-color unquote('#' + $r + 'f' + $b)
+							.mode-off.mode-blue &
+								background-color unquote('#' + $r + $g + '0')
+							.mode-blue &
+								background-color unquote('#' + $r + $g + '7')
+							.mode-on.mode-blue &
+								background-color unquote('#' + $r + $g + 'f')
+
+#clue
+	rounded()
+	shadowed()
+	background-color #333
+	margin 1em
+	padding 1em
+	text-align center
+
+#win
+	display none
+	rounded()
+	shadowed()
+	margin 1em
+	padding 1em
+	background-color #141
+	text-align center
+	h3
+		display inline-block
+		margin 0
+		padding 0
+	.message
+		display inline-block
+
+#main-controls
+	background-color #333
+	margin 1em 0
+	padding 0.5em
+	font-size 75%
+	border 1px dashed #555
+	border-style dashed none
+	text-align center
+	fieldset
+		margin 0.5em
+		border-style none
+		padding 0.3em
+		display inline-block
+		background-color #444
+		vertical-align top
+		rounded()
+		max-width 15em
+		text-align left
+		h3
+			margin 0
+		label
+			display block
+
+#choose-board
+	list-style-type none
+	margin 0
+	padding 0
+	text-align center
+	li
+		vertical-align top
+		margin 0.05em
+		shadowed()
+		cursor pointer
+		text-align center
+		width 1.2em
+		height 1.2em
+		font-size 500%
+		background-color #444
+		font-weight bold
+		display inline-block
+		&:hover
+			background-color #555
+		&.current
+			background-color #333
+			cursor auto
+#choose-board
+#preview-board
+	table.board
+		font-size 1px
+		th
+		tr:first-child
+			display none
+		td
+			width auto
+			height auto
+			border none
+		width 100%
+		height 100%
+
+#preview-board
+	width 8em
+	height 8em
+	position absolute
+	left 10px
+	top 10px
+	transition(top 0.4s)
+	transition(left 0.4s)
+	shadowed()
+
+#loading
+	border-box()
+	display table
+	width 100%
+	height 100%
+	position fixed
+	left 0
+	top 0
+	background-color #444
+	color pink
+	font-size 400%
+	text-align center
+	div
+		display table-cell
+		vertical-align middle

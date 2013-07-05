@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3631"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   width="32"
+   height="32"
+   sodipodi:docname="cursors.svg">
+  <metadata
+     id="metadata3637">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3635">
+    <filter
+       inkscape:collect="always"
+       id="filter4813"
+       x="-0.65190722"
+       width="2.3038144"
+       y="-0.39200211"
+       height="1.7840042">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.8905082"
+         id="feGaussianBlur4815" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5551"
+       x="-0.300931"
+       width="1.601862"
+       y="-0.17701823"
+       height="1.3540365">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2538792"
+         id="feGaussianBlur5553" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5555"
+       x="-0.300931"
+       width="1.601862"
+       y="-0.17701823"
+       height="1.3540365">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2538792"
+         id="feGaussianBlur5557" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5559"
+       x="-0.300931"
+       width="1.601862"
+       y="-0.17701823"
+       height="1.3540365">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2538792"
+         id="feGaussianBlur5561" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5563"
+       x="-0.300931"
+       width="1.601862"
+       y="-0.17701823"
+       height="1.3540365">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2538792"
+         id="feGaussianBlur5565" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5567"
+       x="-0.27649229"
+       width="1.5529846"
+       y="-0.17448967"
+       height="1.3489793">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2538792"
+         id="feGaussianBlur5569" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5571"
+       x="-0.300931"
+       width="1.601862"
+       y="-0.18462021"
+       height="1.3692404">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2538792"
+         id="feGaussianBlur5573" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5575"
+       x="-0.27649229"
+       width="1.5529846"
+       y="-0.17448967"
+       height="1.3489793">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2538792"
+         id="feGaussianBlur5577" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5579"
+       x="-0.27649229"
+       width="1.5529846"
+       y="-0.17448967"
+       height="1.3489793">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2538792"
+         id="feGaussianBlur5581" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5583"
+       x="-0.27649229"
+       width="1.5529846"
+       y="-0.17448967"
+       height="1.3489793">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2538792"
+         id="feGaussianBlur5585" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5587"
+       x="-0.300931"
+       width="1.601862"
+       y="-0.18462021"
+       height="1.3692404">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2538792"
+         id="feGaussianBlur5589" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5591"
+       x="-0.300931"
+       width="1.601862"
+       y="-0.18462021"
+       height="1.3692404">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2538792"
+         id="feGaussianBlur5593" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5595"
+       x="-0.300931"
+       width="1.601862"
+       y="-0.18462021"
+       height="1.3692404">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2538792"
+         id="feGaussianBlur5597" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1022"
+     inkscape:window-height="779"
+     id="namedview3633"
+     showgrid="true"
+     inkscape:zoom="32"
+     inkscape:cx="-7.1421342"
+     inkscape:cy="-14.294371"
+     inkscape:window-x="0"
+     inkscape:window-y="19"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3631"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3670" />
+  </sodipodi:namedview>
+  <g
+     id="g5670"
+     inkscape:export-filename="/home/bjn/www/ourgeebee/cursors/not-white.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <rect
+       y="82"
+       x="-48"
+       height="24"
+       width="18"
+       id="rect5599"
+       style="color:#000000;fill:none;fill-opacity:0.78431373000000004;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <g
+       transform="translate(1,0.99999695)"
+       style="fill:#000000;stroke:none;filter:url(#filter5567)"
+       id="g5447">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path5449"
+         d="m -45.5,100.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         style="fill:#000000;stroke:none" />
+      <path
+         style="fill:#000000;stroke:none"
+         d="m -43.491116,94.350494 1.479167,-1.479167 2.958333,2.958334 2.958333,-2.958334 1.479167,1.479167 -2.958333,2.958333 2.958333,2.958343 -1.479167,1.47918 -2.958333,-2.958356 -2.958333,2.958356 -1.479167,-1.47918 2.958333,-2.958343 z"
+         id="path5451"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5415">
+      <path
+         style="fill:#000000;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -45.5,100.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         id="path4600"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4602"
+         d="m -43.491116,94.350494 1.479167,-1.479167 2.958333,2.958334 2.958333,-2.958334 1.479167,1.479167 -2.958333,2.958333 2.958333,2.958343 -1.479167,1.47918 -2.958333,-2.958356 -2.958333,2.958356 -1.479167,-1.47918 2.958333,-2.958343 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+  <g
+     id="g5661"
+     inkscape:export-filename="/home/bjn/www/ourgeebee/cursors/not-red.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <g
+       transform="translate(1,0.99999695)"
+       style="fill:#000000;stroke:none;filter:url(#filter5575)"
+       id="g5461">
+      <path
+         style="fill:#000000;stroke:none"
+         d="m -25.5,100.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         id="path5463"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5465"
+         d="m -23.491116,94.350494 1.479167,-1.479167 2.958333,2.958334 2.958333,-2.958334 1.479167,1.479167 -2.958333,2.958333 2.958333,2.958343 -1.479167,1.47918 -2.958333,-2.958356 -2.958333,2.958356 -1.479167,-1.47918 2.958333,-2.958343 z"
+         style="fill:#000000;stroke:none" />
+    </g>
+    <g
+       id="g5411">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path4842"
+         d="m -25.5,100.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         style="fill:#000000;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:#ff0000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -23.491116,94.350494 1.479167,-1.479167 2.958333,2.958334 2.958333,-2.958334 1.479167,1.479167 -2.958333,2.958333 2.958333,2.958343 -1.479167,1.47918 -2.958333,-2.958356 -2.958333,2.958356 -1.479167,-1.47918 2.958333,-2.958343 z"
+         id="path4844"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect5601"
+       width="18"
+       height="24"
+       x="-28"
+       y="82" />
+  </g>
+  <g
+     id="g5652"
+     inkscape:export-filename="/home/bjn/www/ourgeebee/cursors/not-green.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <g
+       transform="translate(1,0.99999695)"
+       style="fill:#000000;stroke:none;filter:url(#filter5579)"
+       id="g5467">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path5469"
+         d="m -5.5,100.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         style="fill:#000000;stroke:none" />
+      <path
+         style="fill:#000000;stroke:none"
+         d="m -3.491116,94.350494 1.479167,-1.479167 2.958333,2.958334 2.958333,-2.958334 1.479167,1.479167 -2.958333,2.958333 2.958333,2.958343 -1.479167,1.47918 -2.958333,-2.958356 -2.958333,2.958356 -1.479167,-1.47918 2.958333,-2.958343 z"
+         id="path5471"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5407">
+      <path
+         style="fill:#000000;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -5.5,100.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         id="path4854"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4856"
+         d="m -3.491116,94.350494 1.479167,-1.479167 2.958333,2.958334 2.958333,-2.958334 1.479167,1.479167 -2.958333,2.958333 2.958333,2.958343 -1.479167,1.47918 -2.958333,-2.958356 -2.958333,2.958356 -1.479167,-1.47918 2.958333,-2.958343 z"
+         style="fill:#00ff00;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <rect
+       y="82"
+       x="-8"
+       height="24"
+       width="18"
+       id="rect5603"
+       style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+  <g
+     id="g5643"
+     inkscape:export-filename="/home/bjn/www/ourgeebee/cursors/not-blue.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <g
+       transform="translate(1,0.99999695)"
+       style="fill:#000000;stroke:none;filter:url(#filter5583)"
+       id="g5473">
+      <path
+         style="fill:#000000;stroke:none"
+         d="m 14.5,100.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         id="path5475"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5477"
+         d="m 16.508884,94.350494 1.479167,-1.479167 2.958333,2.958334 2.958333,-2.958334 1.479167,1.479167 -2.958333,2.958333 2.958333,2.958343 -1.479167,1.47918 -2.958333,-2.958356 -2.958333,2.958356 -1.479167,-1.47918 2.958333,-2.958343 z"
+         style="fill:#000000;stroke:none" />
+    </g>
+    <g
+       id="g5403">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path4866"
+         d="m 14.5,100.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         style="fill:#000000;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:#0000ff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 16.508884,94.350494 1.479167,-1.479167 2.958333,2.958334 2.958333,-2.958334 1.479167,1.479167 -2.958333,2.958333 2.958333,2.958343 -1.479167,1.47918 -2.958333,-2.958356 -2.958333,2.958356 -1.479167,-1.47918 2.958333,-2.958343 z"
+         id="path4868"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect5605"
+       width="18"
+       height="24"
+       x="12"
+       y="82" />
+  </g>
+  <g
+     id="g5638"
+     inkscape:export-filename="/home/bjn/www/ourgeebee/cursors/blue.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <path
+       style="fill:#000000;stroke:none;filter:url(#filter5559)"
+       d="m 15.5,61.499997 0,-16 10,10 0,1 -4,0 2,4 0,1 -1,1 -1,0 -3,-5 z"
+       id="path5443"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4530"
+       d="m 14.5,60.5 0,-16 10,10 0,1 -4,0 2,4 0,1 -1,1 -1,0 -3,-5 z"
+       style="fill:#0000ff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       y="42"
+       x="12"
+       height="24"
+       width="18"
+       id="rect5607"
+       style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+  <g
+     id="g5633"
+     inkscape:export-filename="/home/bjn/www/ourgeebee/cursors/green.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <path
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path5441"
+       d="m -4.5,61.499997 0,-16 10,10 0,1 -4,0 2,4 0,1 -1,1 -1,0 -3,-5 z"
+       style="fill:#000000;stroke:none;filter:url(#filter5555)" />
+    <path
+       style="fill:#00ff00;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -5.5,60.5 0,-16 10,10 0,1 -4,0 2,4 0,1 -1,1 -1,0 -3,-5 z"
+       id="path4518"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
+    <rect
+       style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect5609"
+       width="18"
+       height="24"
+       x="-8"
+       y="42" />
+  </g>
+  <g
+     id="g5628"
+     inkscape:export-filename="/home/bjn/www/ourgeebee/cursors/red.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <path
+       style="fill:#000000;stroke:none;filter:url(#filter5551)"
+       d="m -24.5,61.499997 0,-16 10,10 0,1 -4,0 2,4 0,1 -1,1 -1,0 -3,-5 z"
+       id="path5439"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3672"
+       d="m -25.5,60.5 0,-16 10,10 0,1 -4,0 2,4 0,1 -1,1 -1,0 -3,-5 z"
+       style="fill:#ff0000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       y="42"
+       x="-28"
+       height="24"
+       width="18"
+       id="rect5611"
+       style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+  <g
+     id="g5623"
+     inkscape:export-filename="/home/bjn/www/ourgeebee/cursors/white.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <path
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path5445"
+       d="m -44.5,61.499997 0,-16 10,10 0,1 -4,0 2,4 0,1 -1,1 -1,0 -3,-5 z"
+       style="fill:#000000;stroke:none;filter:url(#filter5563)" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -45.5,60.5 0,-16 10,10 0,1 -4,0 2,4 0,1 -1,1 -1,0 -3,-5 z"
+       id="path4592"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
+    <rect
+       style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect5613"
+       width="18"
+       height="24"
+       x="-48"
+       y="42" />
+  </g>
+  <g
+     id="g5679"
+     inkscape:export-filename="/home/bjn/www/ourgeebee/cursors/unknown-white.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <g
+       transform="translate(1,0.99999695)"
+       style="fill:#000000;stroke:none;filter:url(#filter5571)"
+       id="g5453">
+      <path
+         style="fill:#000000;stroke:none"
+         d="m -45.5,140.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         id="path5455"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5457"
+         y="140.8"
+         x="-44.773685"
+         style="font-size:15.5950861px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           style="fill:#000000;stroke:none"
+           y="140.8"
+           x="-44.773685"
+           id="tspan5459"
+           sodipodi:role="line">?</tspan></text>
+    </g>
+    <g
+       id="g5419">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path4777"
+         d="m -45.5,140.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         style="fill:#808080;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-size:15.5950861px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         x="-44.773685"
+         y="140.8"
+         id="text4791"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4793"
+           x="-44.773685"
+           y="140.8"
+           style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">?</tspan></text>
+    </g>
+    <rect
+       y="122"
+       x="-48"
+       height="24"
+       width="18"
+       id="rect5615"
+       style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+  <g
+     id="g5690"
+     inkscape:export-filename="/home/bjn/www/ourgeebee/cursors/unknown-red.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <g
+       transform="translate(1,0.99999695)"
+       style="fill:#000000;stroke:none;filter:url(#filter5587)"
+       id="g5479">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path5481"
+         d="m -25.5,140.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         style="fill:#000000;stroke:none" />
+      <text
+         xml:space="preserve"
+         style="font-size:15.5950861px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         x="-24.773685"
+         y="140.8"
+         id="text5483"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5485"
+           x="-24.773685"
+           y="140.8"
+           style="fill:#000000;stroke:none">?</tspan></text>
+    </g>
+    <g
+       id="g5424">
+      <path
+         style="fill:#808080;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -25.5,140.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         id="path4905"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4907"
+         y="140.8"
+         x="-24.773685"
+         style="font-size:15.5950861px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           style="fill:#ff0000;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           y="140.8"
+           x="-24.773685"
+           id="tspan4909"
+           sodipodi:role="line">?</tspan></text>
+    </g>
+    <rect
+       style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect5617"
+       width="18"
+       height="24"
+       x="-28"
+       y="122" />
+  </g>
+  <g
+     id="g5701"
+     inkscape:export-filename="/home/bjn/www/ourgeebee/cursors/unknown-green.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <g
+       transform="translate(1,0.99999695)"
+       style="fill:#000000;stroke:none;filter:url(#filter5591)"
+       id="g5487">
+      <path
+         style="fill:#000000;stroke:none"
+         d="m -5.5,140.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         id="path5489"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5491"
+         y="140.8"
+         x="-4.7736855"
+         style="font-size:15.5950861px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           style="fill:#000000;stroke:none"
+           y="140.8"
+           x="-4.7736855"
+           id="tspan5493"
+           sodipodi:role="line">?</tspan></text>
+    </g>
+    <g
+       id="g5429">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path4921"
+         d="m -5.5,140.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         style="fill:#808080;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-size:15.5950861px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         x="-4.7736855"
+         y="140.8"
+         id="text4923"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4925"
+           x="-4.7736855"
+           y="140.8"
+           style="fill:#00ff00;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">?</tspan></text>
+    </g>
+    <rect
+       y="122"
+       x="-8"
+       height="24"
+       width="18"
+       id="rect5619"
+       style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+  <g
+     id="g5712"
+     inkscape:export-filename="/home/bjn/www/ourgeebee/cursors/unknown-blue.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <g
+       transform="translate(1,0.99999695)"
+       style="fill:#000000;stroke:none;filter:url(#filter5595)"
+       id="g5495">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path5497"
+         d="m 14.5,140.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         style="fill:#000000;stroke:none" />
+      <text
+         xml:space="preserve"
+         style="font-size:15.5950861px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         x="15.226315"
+         y="140.8"
+         id="text5499"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5501"
+           x="15.226315"
+           y="140.8"
+           style="fill:#000000;stroke:none">?</tspan></text>
+    </g>
+    <g
+       id="g5434">
+      <path
+         style="fill:#808080;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 14.5,140.5 0,-16 10,10 0,1 -6,0 -0.248699,0 z"
+         id="path4937"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4939"
+         y="140.8"
+         x="15.226315"
+         style="font-size:15.5950861px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           style="fill:#0000ff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           y="140.8"
+           x="15.226315"
+           id="tspan4941"
+           sodipodi:role="line">?</tspan></text>
+    </g>
+    <rect
+       style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect5621"
+       width="18"
+       height="24"
+       x="12"
+       y="122" />
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="author" content="Bart Nagel &lt;bart@tremby.net&gt;">
+		<title>Our Gee Bee nonograms</title>
+		<script type="text/javascript" charset="utf-8">
+		</script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js" type="application/javascript"></script>
+		<!--<script src="jquery-2.0.2.min.js" type="application/javascript"></script>-->
+		<script src="jquery.cookie.js" type="application/javascript"></script>
+		<script src="underscore-min.js" type="application/javascript"></script>
+
+		<script src="ourgeebee.js" type="application/javascript"></script>
+
+		<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
+	</head>
+	<body>
+		<div id="clue"></div>
+		<section id="board-area">
+			<div id="board"></div>
+			<div id="preview-board"></div>
+			<ul id="tama">
+				<li class="red">Tama!</li>
+				<li class="green">Tama!</li>
+				<li class="blue">Tama!</li>
+			</ul>
+			<div id="win">
+				<h3>Magaling!</h3>
+				<div class="message"></div>
+				<div class="controls">
+					<button id="next-board">Next board</button>
+				</div>
+			</div>
+		</section>
+		<section id="main-controls" class="controls">
+			<fieldset>
+				<label><input type="checkbox" name="mode-single"> Single-colour mode (space)</label>
+			</fieldset>
+			<fieldset>
+				<h3>Channel</h3>
+				<label><input type="radio" name="mode-colour" value="all" checked="checked"> All (`, w)</label>
+				<label><input type="radio" name="mode-colour" value="red"> Red (1, r)</label>
+				<label><input type="radio" name="mode-colour" value="green"> Green (2, g)</label>
+				<label><input type="radio" name="mode-colour" value="blue"> Blue (3, b)</label>
+			</fieldset>
+			<fieldset>
+				<h3>Click mode</h3>
+				<label><input type="radio" name="mode-action" value="off"> Off</label>
+				<label><input type="radio" name="mode-action" value="unknown"> Unknown</label>
+				<label><input type="radio" name="mode-action" value="on"> On</label>
+				<label><input type="radio" name="mode-action" value="keyboard" checked="checked"> Hold shift or &rarr; to switch on, hold control or &uarr; to switch off</label>
+			</fieldset>
+		</section>
+		<section>
+			<ol id="choose-board">
+				<li class="current">?</li>
+				<li>?</li>
+			</ol>
+		</section>
+
+		<div id="loading">
+			<div>Loading!</div>
+		</div>
+	</body>
+</html>
