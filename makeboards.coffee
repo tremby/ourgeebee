@@ -37,7 +37,7 @@ boards = [
 	}
 	{
 		source: 'boards/flower.xcf'
-		clue: "Along the same lines"
+		clue: "Something I like a lot to play with"
 		win: "Flower"
 	}
 	{
