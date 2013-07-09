@@ -89,6 +89,11 @@ boards = [
 		win: "I'm puppies?"
 	}
 	{
+		source: 'boards/kitty.xcf'
+		clue: "Meow"
+		win: "It's a kitty!"
+	}
+	{
 		source: 'boards/pizza.xcf'
 		clue: "Yum yum"
 		win: "15 pixels isn't enough room for all the toppings"
