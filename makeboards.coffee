@@ -84,11 +84,6 @@ boards = [
 		win: "Jake!"
 	}
 	{
-		source: 'boards/lsp.xcf'
-		clue: "Duchess Gummybuns"
-		win: "Drama bomb!"
-	}
-	{
 		source: 'boards/ladyrainicorn.xcf'
 		clue: "A very nice Korean lady"
 		win: "I'm puppies?"
@@ -97,6 +92,11 @@ boards = [
 		source: 'boards/pizza.xcf'
 		clue: "Yum yum"
 		win: "15 pixels isn't enough room for all the toppings"
+	}
+	{
+		source: 'boards/lsp.xcf'
+		clue: "Duchess Gummybuns"
+		win: "Drama bomb!"
 	}
 	{
 		source: 'boards/sushi.xcf'
