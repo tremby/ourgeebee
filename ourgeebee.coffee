@@ -17,6 +17,7 @@ $ ->
 	boardNum = 0
 	boardsComplete = []
 	gameActive = false
+	customboard = false
 
 	$.cookie.json = true
 	boardsComplete = $.cookie 'boardsComplete' if $.cookie 'boardsComplete'
@@ -98,9 +99,10 @@ $ ->
 			$winMessage.text board.win
 			if boardNum not in boardsComplete
 				boardsComplete.push boardNum
-				$.cookie.json = true
-				$.cookie 'boardsComplete', boardsComplete, expires: 3650
-				showBoardThumbnail boardNum
+				unless customBoard
+					$.cookie.json = true
+					$.cookie 'boardsComplete', boardsComplete, expires: 3650
+					showBoardThumbnail boardNum
 
 	correctColour = (colour) ->
 		allGood = true
@@ -404,7 +406,8 @@ $ ->
 		checkRowGroups getRow $td
 		checkColGroups getCol $td
 		checkForWin()
-		debouncedSaveState()
+		unless customBoard
+			debouncedSaveState()
 
 	$('input[name="mode-colour"]').on 'change', ->
 		$(@).blur()
@@ -484,21 +487,30 @@ $ ->
 	$(window).resize _.debounce resizeHandler, 100
 	resizeHandler()
 
-	$.getJSON 'boards.json', (data) ->
-		$.each data, (k, v) ->
-			data[k].solution = parseSolution v.solution
-		boards = data
-		$.cookie.json = false
-		changeBoard boardNum, $.cookie('state')
-
-		$template = $boardList.find('li:first').removeClass 'current complete'
-		$boardList.empty()
-		for i in [0...boards.length]
-			$li = $template.clone()
-			if i is boardNum
-				$li.addClass 'current'
-			$li.appendTo $boardList
-			if i in boardsComplete
-				showBoardThumbnail i
-
+	if /[?&]board=/.test window.location.search
+		base64 = window.location.search.replace /[?&]board=(.*?)($|&)/, '$1'
+		board = $.parseJSON atob base64
+		board.solution = parseSolution board.solution
+		boards = [board]
+		customBoard = true
+		changeBoard 0
+		$boardList.hide()
 		$loading.delay(500).fadeOut()
+	else
+		$.getJSON 'boards.json', (data) ->
+			$.each data, (k, v) ->
+				data[k].solution = parseSolution v.solution
+			boards = data
+			$.cookie.json = false
+			changeBoard boardNum, $.cookie('state')
+
+			$template = $boardList.find('li:first').removeClass 'current complete'
+			$boardList.empty()
+			for i in [0...boards.length]
+				$li = $template.clone()
+				if i is boardNum
+					$li.addClass 'current'
+				$li.appendTo $boardList
+				if i in boardsComplete
+					showBoardThumbnail i
+			$loading.delay(500).fadeOut()
