@@ -1,0 +1,9 @@
+{
+	"name": "ourgeebee",
+	"version": "0.0.0",
+	"dependencies": {
+		"async": "0.2.x",
+		"glob": "3.2.x",
+		"pngparse": "2.x"
+	}
+}
