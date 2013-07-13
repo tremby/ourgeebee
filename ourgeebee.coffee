@@ -421,6 +421,14 @@ $ ->
 		$(@).blur()
 		modeSingle()
 
+	$('button[name="clear-current"]').on 'click', ->
+		$(@).blur()
+		for colour in ['red', 'green', 'blue']
+			if $body.is ".mode-#{colour}"
+				getCells().removeClass "#{colour} not-#{colour}"
+		checkAllGroups()
+		checkForWin()
+
 	$boardList.on 'click', 'li', ->
 		$li = $ @
 		if not $li.hasClass('current') and (not gameActive or gameActive and confirm("Are you sure you want to change board? You'll lose progress!"))
