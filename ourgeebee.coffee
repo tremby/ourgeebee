@@ -431,8 +431,9 @@ $ ->
 
 	$boardList.on 'click', 'li', ->
 		$li = $ @
-		if not $li.hasClass('current') and (not gameActive or gameActive and confirm("Are you sure you want to change board? You'll lose progress!"))
-			changeBoard $li.index()
+		if not $li.hasClass('current')
+			saveState()
+			changeBoard $li.index(), $.cookie('state_' + $li.index())
 
 	$previewBoard.click ->
 		$el = $ @
@@ -470,7 +471,7 @@ $ ->
 			state.push String.fromCharCode(0x40 + pixel)
 		state = state.join ''
 		$.cookie.json = false
-		$.cookie 'state', state, expires: 3650
+		$.cookie 'state_' + boardNum, state, expires: 3650
 	debouncedSaveState = _.debounce saveState, 500
 
 	loadState = (state) ->
@@ -510,7 +511,7 @@ $ ->
 				data[k].solution = parseSolution v.solution
 			boards = data
 			$.cookie.json = false
-			changeBoard boardNum, $.cookie('state')
+			changeBoard boardNum, $.cookie('state_' + boardNum)
 
 			$template = $boardList.find('li:first').removeClass 'current complete'
 			$boardList.empty()
