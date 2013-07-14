@@ -108,6 +108,11 @@ boards = [
 		clue: "Our favourite thing to eat"
 		win: "What do you think is in it?"
 	}
+	{
+		source: 'boards/strawberrymilkshake.xcf'
+		clue: "Slurp slurp"
+		win: "Shame actual pink isn't available"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
