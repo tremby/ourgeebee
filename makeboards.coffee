@@ -113,6 +113,11 @@ boards = [
 		clue: "Slurp slurp"
 		win: "Shame actual pink isn't available"
 	}
+	{
+		source: 'boards/captainviridian.xcf'
+		clue: "Virtuous voyager"
+		win: "It's Captain Viridian!"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
