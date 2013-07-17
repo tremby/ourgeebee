@@ -524,4 +524,7 @@ $ ->
 				$li.width $li.height() * boards[i].solution[0].length / boards[i].solution.length
 				if i in boardsComplete
 					showBoardThumbnail i
+					$li.attr 'title', boards[i].win
+				else
+					$li.attr 'title', boards[i].clue
 			$loading.delay(500).fadeOut()
