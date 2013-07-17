@@ -318,6 +318,7 @@ $ ->
 		checkAllGroups()
 		checkForWin()
 		resizeHandler()
+		$previewBoard.height $previewBoard.width() * board.solution.length / board.solution[0].length
 
 	endGame = ->
 		$(document).off 'keydown', handleKeyModeColour
@@ -520,6 +521,7 @@ $ ->
 				if i is boardNum
 					$li.addClass 'current'
 				$li.appendTo $boardList
+				$li.width $li.height() * boards[i].solution[0].length / boards[i].solution.length
 				if i in boardsComplete
 					showBoardThumbnail i
 			$loading.delay(500).fadeOut()
