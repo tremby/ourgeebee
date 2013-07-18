@@ -128,6 +128,11 @@ boards = [
 		clue: "Vroom. Do red last."
 		win: "Speedy woooo"
 	}
+	{
+		source: 'boards/hellokitty.xcf'
+		clue: "An easy one"
+		win: "Hi-eeeey"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
