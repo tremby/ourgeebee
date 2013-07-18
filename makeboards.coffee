@@ -123,6 +123,11 @@ boards = [
 		clue: "Do gee and bee, then aggressively guess in the most prominent part of arr. You'll get it."
 		win: "Arrrrrr"
 	}
+	{
+		source: 'boards/speedtriple.xcf'
+		clue: "Vroom. Do red last."
+		win: "Speedy woooo"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
