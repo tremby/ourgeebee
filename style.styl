@@ -44,6 +44,9 @@ body
 			&.mode-on
 				cursor unquote('url(cursors/' + $colour + '.png)') 2 1, auto
 
+a
+	color yellow
+
 #board-area
 	position relative
 	#tama
@@ -301,6 +304,7 @@ table.board
 			cursor auto
 #choose-board
 #preview-board
+#gallery
 	table.board
 		font-size 1px
 		th
@@ -338,3 +342,13 @@ table.board
 	div
 		display table-cell
 		vertical-align middle
+
+#gallery ul
+	list-style-type none
+	display none
+	margin 0
+	padding 0
+	li
+		margin 0 auto
+		padding 0
+		width 90%

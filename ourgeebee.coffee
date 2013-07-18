@@ -430,6 +430,25 @@ $ ->
 		checkAllGroups()
 		checkForWin()
 
+	$('.show-gallery').on 'click', (e) ->
+		e.preventDefault()
+		$ul = $ '#gallery ul'
+		if $ul.is ':visible'
+			$ul.hide()
+			return
+		$ul.empty()
+		$ul.show()
+		for i in [0...boards.length] when i in boardsComplete
+			$li = $ '<li/>'
+			$li.append $('<h4/>').text boards[i].clue
+			$li.append $('<p/>').text boards[i].win
+			$div = $ '<div/>'
+			$li.append $div
+			$li.appendTo $ul
+			initBoard $div, boards[i]
+			showSolution $div, boards[i]
+			$div.height $div.width() * boards[i].solution.length / boards[i].solution[0].length
+
 	$boardList.on 'click', 'li', ->
 		$li = $ @
 		if not $li.hasClass('current')
@@ -505,6 +524,7 @@ $ ->
 		customBoard = true
 		changeBoard 0
 		$boardList.hide()
+		$('#gallery').hide()
 		$loading.delay(500).fadeOut()
 	else
 		$.getJSON 'boards.json', (data) ->
