@@ -118,6 +118,11 @@ boards = [
 		clue: "Virtuous voyager"
 		win: "It's Captain Viridian!"
 	}
+	{
+		source: 'boards/pirateship.xcf'
+		clue: "Do gee and bee, then aggressively guess in the most prominent part of arr. You'll get it."
+		win: "Arrrrrr"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
