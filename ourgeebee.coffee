@@ -426,7 +426,7 @@ $ ->
 		$(@).blur()
 		for colour in ['red', 'green', 'blue']
 			if $body.is ".mode-#{colour}"
-				getCells().removeClass "#{colour} not-#{colour}"
+				getCells().add(getCells $previewBoard).removeClass "#{colour} not-#{colour}"
 		checkAllGroups()
 		checkForWin()
 
