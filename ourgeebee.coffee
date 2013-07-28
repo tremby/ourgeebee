@@ -514,8 +514,11 @@ $ ->
 				$tds.toggleClass "not-#{colour}", trit is 0
 
 	resizeHandler = ->
+		# vertically centre the tama indicators
 		$tama.css
 			top: ($boardArea.height() - $tama.outerHeight()) / 2
+
+		# make sure preview is within the screen
 		wwidth = $window.width()
 		$previewBoard.css
 			left: if $previewBoard.position().left <= wwidth / 2 then 10 else wwidth - $previewBoard.width() - 10
