@@ -50,6 +50,8 @@ $ ->
 			solution.push rowArray
 		return solution
 
+	$document = $ document
+	$window = $ window
 	$loading = $ '#loading'
 	$board = $ '#board'
 	$boardArea = $ '#board-area'
@@ -298,9 +300,9 @@ $ ->
 		initBoard $board, board
 		initBoard $previewBoard, board
 		checkGroups()
-		$(document).on 'keydown', handleKeyModeColour
-		$(document).on 'keydown keyup', handleKeyModeAction
-		$(document).on 'keypress', handleKeyModeSingleToggle
+		$document.on 'keydown', handleKeyModeColour
+		$document.on 'keydown keyup', handleKeyModeAction
+		$document.on 'keypress', handleKeyModeSingleToggle
 		$board.on 'mousedown', 'td', cellMouseDown
 		$body.on 'mouseup', cellMouseUp
 		$body.on 'mousemove', cellDrag
@@ -322,9 +324,9 @@ $ ->
 		$previewBoard.height $previewBoard.width() * board.solution.length / board.solution[0].length
 
 	endGame = ->
-		$(document).off 'keydown', handleKeyModeColour
-		$(document).off 'keydown keyup', handleKeyModeAction
-		$(document).off 'keypress', handleKeyModeSingleToggle
+		$document.off 'keydown', handleKeyModeColour
+		$document.off 'keydown keyup', handleKeyModeAction
+		$document.off 'keypress', handleKeyModeSingleToggle
 		$board.off 'mousedown', 'td', cellMouseDown
 		$body.off 'mouseup', cellMouseUp
 		$body.off 'mousemove', cellDrag
@@ -458,7 +460,7 @@ $ ->
 
 	$previewBoard.click ->
 		$el = $ @
-		wwidth = $(window).width()
+		wwidth = $window.width()
 		$el.css
 			left: if $el.position().left > wwidth / 2 then 10 else wwidth - $el.width() - 10
 
@@ -511,10 +513,10 @@ $ ->
 	resizeHandler = ->
 		$tama.css
 			top: ($boardArea.height() - $tama.outerHeight()) / 2
-		wwidth = $(window).width()
+		wwidth = $window.width()
 		$previewBoard.css
 			left: if $previewBoard.position().left <= wwidth / 2 then 10 else wwidth - $previewBoard.width() - 10
-	$(window).resize _.debounce resizeHandler, 100
+	$window.resize _.debounce resizeHandler, 100
 	resizeHandler()
 
 	if /[?&]board=/.test window.location.search
