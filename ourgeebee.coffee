@@ -317,6 +317,7 @@ $ ->
 			$.removeCookie 'state'
 		checkAllGroups()
 		checkForWin()
+		$previewBoard.width() # force re-flow
 		resizeHandler()
 		$previewBoard.height $previewBoard.width() * board.solution.length / board.solution[0].length
 
