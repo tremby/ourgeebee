@@ -230,6 +230,10 @@ $ ->
 			if iterate groups, $groups, $tmpCells
 				iterate groups.reverse(), $($groups.get().reverse()), $($tmpCells.get().reverse())
 
+	getColTh = (col) -> $board.find "tr:first th:eq(#{col + 1})"
+	getTr = (row) -> $board.find "tr:eq(#{row + 1})"
+	getRowTh = (row) -> getTr(row).find 'th'
+
 	checkColGroups = (col) ->
 		cells = []
 		$cells = $()
@@ -237,12 +241,11 @@ $ ->
 			cells.push board.solution[row][col]
 			$cells = $cells.add getCellByCoords row, col
 		colourGroups = calculateGroups cells
-		$th = $board.find('tr:first th:eq(' + (col + 1) + ')')
-		checkGroups colourGroups, $cells, $th
+		checkGroups colourGroups, $cells, getColTh col
 	checkRowGroups = (row) ->
-		$tr = $board.find('tr:eq(' + (row + 1) + ')')
-		$cells = $tr.find('td')
-		$th = $tr.find('th')
+		$tr = getTr row
+		$cells = $tr.find 'td'
+		$th = $tr.find 'th'
 		colourGroups = calculateGroups board.solution[row]
 		checkGroups colourGroups, $cells, $th
 	checkAllGroups = ->
