@@ -62,6 +62,8 @@ $ ->
 	$winMessage = $win.find '.message'
 	$boardList = $ '#choose-board'
 	$tama = $ '#tama'
+	$rowTooltip = $ '#row-tooltip'
+	$colTooltip = $ '#col-tooltip'
 
 	initBoard = ($board, board) ->
 		$board.empty()
@@ -410,11 +412,45 @@ $ ->
 		if $body.is '.mode-blue'
 			$td.add($previewTd).toggleClass 'blue', $body.is '.mode-on'
 			$td.add($previewTd).toggleClass 'not-blue', $body.is '.mode-off'
-		checkRowGroups getRow $td
-		checkColGroups getCol $td
+		row = getRow $td
+		col = getCol $td
+		checkRowGroups row
+		checkColGroups col
+		if $rowTooltip.data('i') is row or $colTooltip.data('i') is col
+			updateTooltips $td
 		checkForWin()
 		unless customBoard
 			debouncedSaveState()
+
+	updateTooltips = ($td) ->
+		row = getRow $td
+		col = getCol $td
+
+		updateTooltip = ($tooltip, $th, i) ->
+			$tooltip.empty().data('i', i).append $th.children().clone()
+
+		updateTooltip $rowTooltip, getRowTh(row), row,
+		updateTooltip $colTooltip, getColTh(col), col
+
+		updateTooltipPositions()
+
+	updateTooltipPositions = ->
+		$rowTh = getRowTh $rowTooltip.data 'i'
+		$colTh = getColTh $colTooltip.data 'i'
+		return unless $rowTh.length and $colTh.length
+		$rowTooltip.css
+			top: $rowTh.offset().top - $document.scrollTop()
+			width: $rowTh.outerWidth()
+			height: $rowTh.outerHeight()
+		$colTooltip.css
+			left: $colTh.offset().left - $document.scrollLeft()
+			width: $colTh.outerWidth()
+			height: $colTh.outerHeight()
+
+	$document.scroll updateTooltipPositions
+
+	$board.on 'mouseover', 'td', ->
+		updateTooltips $ @
 
 	$('input[name="mode-colour"]').on 'change', ->
 		$(@).blur()
@@ -522,6 +558,12 @@ $ ->
 		wwidth = $window.width()
 		$previewBoard.css
 			left: if $previewBoard.position().left <= wwidth / 2 then 10 else wwidth - $previewBoard.width() - 10
+
+		# show or hide tooltips based on whether the board will fit on the 
+		# screen
+		$boardTable = $board.find 'table.board'
+		$rowTooltip.toggle wwidth < $boardTable.outerWidth()
+		$colTooltip.toggle $window.height() < $boardTable.outerHeight()
 	$window.resize _.debounce resizeHandler, 100
 	resizeHandler()
 

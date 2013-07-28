@@ -70,78 +70,87 @@ a
 				opacity 1
 
 $border-color = #555
+.groups
+	font-size 50%
+	line-height 1.2
+	text-shadow 1px 1px 0 rgba(0, 0, 0, 0.8)
+	.mode-single &
+		opacity 0.3
+	.mode-single.mode-red &.red
+		opacity 1
+	.mode-single.mode-green &.green
+		opacity 1
+	.mode-single.mode-blue &.blue
+		opacity 1
+	&.red
+		color #f55
+		.complete
+			color #a00
+	&.green
+		color #5f5
+		.complete
+			color #0a0
+	&.blue
+		color #55f
+		.complete
+			color #00a
+	table.board tr:first-of-type th &
+	#col-tooltip &
+		line-height 1
+		text-align center
+		margin-right 0.2em
+		&:last-child
+			margin-right 0
+		vertical-align middle
+		display inline-block
+		.mode-single &
+			opacity 0.3
+		.mode-single.mode-red &.red
+			opacity 1
+		.mode-single.mode-green &.green
+			opacity 1
+		.mode-single.mode-blue &.blue
+			opacity 1
+		.group
+			width 100%
+			margin-left 0
+			display block
+			padding-top 2px
+			padding-bottom 2px
+			&:after
+				content ''
+.group
+	display inline
+	padding 1px
+	&:after
+		content ','
+	margin-right 0.3em
+	&:last-child
+		margin-right 0
+		&:after
+			content ''
+	&.complete
+		background-color black
+.tooltip
+	background-color #333
+	text-align center
+	position fixed
+	&#col-tooltip
+		top 0
+	&#row-tooltip
+		left 0
 table.board
 	margin 0.5em auto
 	border-collapse collapse
 	th
 		border 1px solid $border-color
 		border-style solid none
-		.groups
-			font-size 50%
-			line-height 1.2
-			text-shadow 1px 1px 0 rgba(0, 0, 0, 0.8)
-			.mode-single &
-				opacity 0.3
-			.mode-single.mode-red &.red
-				opacity 1
-			.mode-single.mode-green &.green
-				opacity 1
-			.mode-single.mode-blue &.blue
-				opacity 1
-			&.red
-				color #f55
-				.complete
-					color #a00
-			&.green
-				color #5f5
-				.complete
-					color #0a0
-			&.blue
-				color #55f
-				.complete
-					color #00a
-		.group
-			display inline
-			padding 1px
-			&:after
-				content ','
-			margin-right 0.3em
-			&:last-child
-				margin-right 0
-				&:after
-					content ''
-			&.complete
-				background-color black
 	tr:first-of-type
 		th
 			white-space nowrap
 			border-style none solid
 			&:first-of-type
 				border-style none
-			.groups
-				line-height 1
-				text-align center
-				margin-right 0.2em
-				&:last-child
-					margin-right 0
-				vertical-align middle
-				display inline-block
-				.mode-single &
-					opacity 0.3
-				.mode-single.mode-red &.red
-					opacity 1
-				.mode-single.mode-green &.green
-					opacity 1
-				.mode-single.mode-blue &.blue
-					opacity 1
-				.group
-					width 100%
-					margin-left 0
-					display block
-					padding-top 2px
-					padding-bottom 2px
-					&:after
-						content ''
 	tr:nth-child(5n+1) td
 		border-bottom-width 3px
 	tr:last-child
