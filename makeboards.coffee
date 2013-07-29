@@ -133,6 +133,11 @@ boards = [
 		clue: "An easy one"
 		win: "Hi-eeeey"
 	}
+	{
+		source: 'boards/nyancat.xcf'
+		clue: "Colourful, delicious, magical and cute all at once"
+		win: "Nya nya nyanya nya nyanyanya nya nya nya nyanyanyanyanyanyanyanyanyanyanyanyanyanyanya nya nyanyanyanyanyanyanyanyanyanyanyanyanya nyanyanyanyanyanyanyanyanya nya nya"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
