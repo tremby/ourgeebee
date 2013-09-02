@@ -138,6 +138,11 @@ boards = [
 		clue: "Colourful, delicious, magical and cute all at once"
 		win: "Nya nya nyanya nya nyanyanya nya nya nya nyanyanyanyanyanyanyanyanyanyanyanyanyanyanya nya nyanyanyanyanyanyanyanyanyanyanyanyanya nyanyanyanyanyanyanyanyanya nya nya"
 	}
+	{
+		source: 'boards/sadface.xcf'
+		clue: "I'm sorry"
+		win: "Please forgive me"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
