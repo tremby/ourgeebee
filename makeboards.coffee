@@ -148,6 +148,11 @@ boards = [
 		clue: "If you'll excuse the Simpsonization"
 		win: "I wonder if you know which photo this is from"
 	}
+	{
+		source: 'boards/beach.xcf'
+		clue: "A place nice on shine days"
+		win: "Do you know which island that is?"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
