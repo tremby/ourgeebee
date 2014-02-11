@@ -158,6 +158,11 @@ boards = [
 		clue: "Brunch companion"
 		win: "Meant to be lime and celery."
 	}
+	{
+		source: 'boards/finnjake.xcf'
+		clue: "Best buds"
+		win: "Let's always be stupid, forever!"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
