@@ -153,6 +153,11 @@ boards = [
 		clue: "A place nice on shine days"
 		win: "Do you know which island that is?"
 	}
+	{
+		source: 'boards/caesar.xcf'
+		clue: "Brunch companion"
+		win: "Meant to be lime and celery."
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
