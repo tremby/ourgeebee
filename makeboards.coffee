@@ -163,6 +163,11 @@ boards = [
 		clue: "Best buds"
 		win: "Let's always be stupid, forever!"
 	}
+	{
+		source: 'boards/penguin.xcf'
+		clue: "Down south"
+		win: "Pingu pingu pingu pingu"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
