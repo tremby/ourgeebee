@@ -18,3 +18,7 @@ Run `npm run build`.
 ## Deploy
 
 The contents of the `dist` directory.
+
+## Play
+
+This is up and running at <http://ourgeebee.tremby.net/>.
