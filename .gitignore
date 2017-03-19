@@ -1,5 +1,2 @@
-node_modules
-*.js
-*.map
-*.css
-boards.json
+/node_modules
+/dist

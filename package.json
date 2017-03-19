@@ -1,9 +1,19 @@
 {
-	"name": "ourgeebee",
-	"version": "0.0.0",
-	"dependencies": {
-		"async": "0.2.x",
-		"glob": "3.2.x",
-		"pngparse": "2.x"
-	}
+  "name": "ourgeebee",
+  "version": "0.0.0",
+  "devDependencies": {
+    "async": "0.2.x",
+    "coffee-script": "^1.12.4",
+    "glob": "3.2.x",
+    "pngparse": "2.x",
+    "stylus": "^0.54.5"
+  },
+  "scripts": {
+    "build-boards": "coffee makeboards.coffee >dist/boards.json",
+    "build-css": "stylus --compress --out dist style.styl",
+    "build-js": "coffee --compile --output dist ourgeebee.coffee",
+    "build": "npm run clean; mkdir -p dist; npm run build-boards; npm run build-js; npm run build-css; npm run copy-static",
+    "clean": "rm -rf dist",
+    "copy-static": "cp --recursive --target-directory=dist cursors index.html"
+  }
 }
