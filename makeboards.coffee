@@ -183,6 +183,11 @@ boards = [
 		clue: "A very good boy"
 		win: "Not a pest"
 	}
+	{
+		source: 'boards/yellow-cat.xcf'
+		clue: "Litte harder but you already know what it is"
+		win: "Kitty kitty kitty kitty"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
