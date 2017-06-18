@@ -174,6 +174,11 @@ boards = [
 		win: "He was called Bow Wow"
 	}
 	{
+		source: 'boards/philippine-flag.xcf'
+		clue: "Think of your old home"
+		win: "Have a good trip!"
+	}
+	{
 		source: 'boards/grus.xcf'
 		clue: "A very good boy"
 		win: "Not a pest"
