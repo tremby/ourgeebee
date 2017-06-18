@@ -173,6 +173,11 @@ boards = [
 		clue: "When my dad was a kid he ate egg shells with one of these"
 		win: "He was called Bow Wow"
 	}
+	{
+		source: 'boards/grus.xcf'
+		clue: "A very good boy"
+		win: "Not a pest"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
