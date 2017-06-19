@@ -188,6 +188,11 @@ boards = [
 		clue: "Litte harder but you already know what it is"
 		win: "Kitty kitty kitty kitty"
 	}
+	{
+		source: 'boards/pokeball.xcf'
+		clue: "Throw to catch"
+		win: "’em all"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
