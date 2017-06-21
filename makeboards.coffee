@@ -193,6 +193,16 @@ boards = [
 		clue: "Throw to catch"
 		win: "’em all"
 	}
+	{
+		source: 'boards/shuckle.xcf'
+		clue: "A turtle guy"
+		win: "Shuckle"
+	}
+	{
+		source: 'boards/pichu.xcf'
+		clue: "A little mouse guy"
+		win: "Pichu"
+	}
 ]
 
 async.map boards, makeboard.makeBoard, (err, results) ->
