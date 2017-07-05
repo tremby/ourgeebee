@@ -185,7 +185,7 @@ boards = [
 	}
 	{
 		source: 'boards/yellow-cat.xcf'
-		clue: "Litte harder but you already know what it is"
+		clue: "Little harder but you already know what it is"
 		win: "Kitty kitty kitty kitty"
 	}
 	{
